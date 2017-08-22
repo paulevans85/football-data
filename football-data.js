@@ -73,7 +73,7 @@
 				
 				tableData.push({
                     "GameID": game[1],
-                    "Date": response.fixtures[i].date,
+                    "GameDate": response.fixtures[i].date,
                     "HomeID": home[1],
                     "AwayID": away[1],
                     "HomeName": response.fixtures[i].homeTeamName,
